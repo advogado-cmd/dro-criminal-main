@@ -7,7 +7,7 @@ export const revalidate = 300
 const WA = "https://wa.me/5511930819577?text=" + encodeURIComponent("Olá, vim pelo site de Advocacia Criminal e preciso de orientação.")
 
 export const metadata = {
-  title: "Advogado Criminalista | Defesa Criminal em Todas as Fases — Dr. Oliveira",
+  title: "Advogado Criminalista | Defesa Criminal em Todas as Fases · Dr. Oliveira",
   description:
     "Advocacia criminal: prisão em flagrante, habeas corpus, inquérito, tribunal do júri, crimes financeiros e virtuais. Defesa técnica com sigilo e urgência.",
   alternates: { canonical: "https://criminal.droliveira.adv.br" },
@@ -111,7 +111,7 @@ export default async function Home() {
             <p className="font-serif text-2xl font-bold">Dr. Carlos Fernando Lopes de Oliveira</p>
             <p className="mt-1 text-sm text-[#ccab76]">Advogado · OAB/SP 524.997 · OAB/PE 24.469 · Mestre em Ciências Jurídicas (UFPB)</p>
             <p className="mt-4 leading-relaxed text-[#aeb8bd]">
-              Atuação em Advocacia Criminal em todas as fases — do inquérito ao Tribunal do Júri — com defesa técnica,
+              Atuação em Advocacia Criminal em todas as fases, do inquérito ao Tribunal do Júri, com defesa técnica,
               sigilo e atenção à urgência de cada caso. O atendimento é direto e reservado.
             </p>
           </div>
@@ -145,7 +145,7 @@ export default async function Home() {
       </section>
 
       <footer className="bg-[#0a212e] px-5 py-6 text-center text-[11px] text-[#8a97a0]">
-        Dr. Carlos Fernando L. de Oliveira — OAB/SP 524.997 · OAB/PE 24.469 · Conteúdo informativo em conformidade com o Provimento OAB 205/2021.
+        Dr. Carlos Fernando L. de Oliveira · OAB/SP 524.997 · OAB/PE 24.469 · Conteúdo informativo em conformidade com o Provimento OAB 205/2021.
       </footer>
     </>
   )
